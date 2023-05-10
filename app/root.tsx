@@ -15,7 +15,7 @@ export const links: LinksFunction = () => [
 ];
 
 const backgroundImageUrl =
-  "https://miladymakerparty.s3.us-east-2.amazonaws.com/clouds.webp";
+  "https://miladymakerparty.s3.us-east-2.amazonaws.com/background.webp";
 
 export default function App() {
   return (
@@ -32,13 +32,13 @@ export default function App() {
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="https://miladymakerparty.s3.us-east-2.amazonaws.com/miladymakerpartylogoanimated.gif"
+          href="https://miladymakerparty.s3.us-east-2.amazonaws.com/favicon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="https://miladymakerparty.s3.us-east-2.amazonaws.com/miladymakerpartylogoanimated.gif"
+          href="https://miladymakerparty.s3.us-east-2.amazonaws.com/favicon.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />

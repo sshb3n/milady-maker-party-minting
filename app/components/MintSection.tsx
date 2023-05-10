@@ -256,7 +256,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
     <div className="flex flex-col text-white items-center relative">
       <div className="absolute -top-80 -left-80">
         <img
-          src="https://pixelady.s3.amazonaws.com/aura-petz/exclamation_l.webp"
+          src="https://miladymakerparty.s3.us-east-2.amazonaws.com/star.webp"
           width="316"
           height="485"
           alt="!"
@@ -264,7 +264,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       </div>
       <div className="absolute -top-80 -right-80">
         <img
-          src="https://pixelady.s3.amazonaws.com/aura-petz/exclamation_r.webp"
+          src="https://miladymakerparty.s3.us-east-2.amazonaws.com/star.webp"
           width="333"
           height="481"
           alt="!"
@@ -272,7 +272,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       </div>
       <div>
         <img
-          src="https://pixelady.s3.amazonaws.com/aura-petz/congratz.webp"
+          src="https://miladymakerparty.s3.us-east-2.amazonaws.com/welcome.webp"
           width="575"
           height="112"
           alt="congratz on yr new pet"
@@ -306,7 +306,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
     <div className="flex flex-col text-white items-center">
       <div className="flex items-center mx-auto text-center justify-center text-sm text-sky-300 group mt-2 mb-3 flex-col">
         <img
-          src="https://pixelady.s3.amazonaws.com/aura-petz/loading.webp"
+          src="https://miladymakerparty.s3.us-east-2.amazonaws.com/loading.webp"
           width="334"
           height="77"
           alt="loading..."
@@ -380,12 +380,12 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       <div className="w-48 mt-8" style={{ display: "flex", justifyContent: "space-between"}}>
       <MintButton
         image="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint_button.webp"
-        imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint_button_selected_small_referral_clicked+mint+copy.webp"
+        imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-selected.webp"
         handleClick={() => console.log("Button 1 clicked")}
       />
       <MintButton
-        image="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint_button_selected_small_referral+copy.webp"
-        imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint_button_selected_small_referral_clicked+copy.webp"
+        image="https://miladymakerparty.s3.us-east-2.amazonaws.com/referral-button-unselected.webp"
+        imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/referral-button-selected.webp"
         handleClick={() => console.log("Button 2 clicked")}
       />
     </div>
@@ -397,8 +397,8 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
 
         {merkleProof.theProof.length ? (
           <MintButton
-            image="https://pixelady.s3.amazonaws.com/aura-petz/free_mint_button.webp"
-            imageHover="https://pixelady.s3.amazonaws.com/aura-petz/free_mint_button_hover.webp"
+            image="https://miladymakerparty.s3.us-east-2.amazonaws.com/free_mint_button.webp"
+            imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/free_mint_button-selected.webp"
             handleClick={mintPrivate}
           />
         ) : merkleProof.status === "idle" ? (
