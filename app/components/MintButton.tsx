@@ -23,7 +23,7 @@ export function MintButton({
         }
         width="284"
         height="140"
-        alt="mint petz"
+        alt="mint milady maker party"
         style={{ transition: "filter 0.5s ease-in-out" }}
         className={`w-full cursor-pointer transition-all duration-500 $${
           hover ? "filter brightness-75" : ""

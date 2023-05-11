@@ -379,7 +379,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
 
       <div className="w-48 mt-8" style={{ display: "flex", justifyContent: "space-between"}}>
       <MintButton
-        image="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint_button.webp"
+        image="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-unselected.webp"
         imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-selected.webp"
         handleClick={() => console.log("Button 1 clicked")}
       />
