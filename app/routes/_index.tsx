@@ -135,7 +135,7 @@ export default function Index() {
         <div className="flex flex-col items-center justify-center">
           <div className="max-w-3xl mx-auto">
             <img
-              src="https://miladymakerparty.s3.us-east-2.amazonaws.com/logo.webp"
+              src="https://miladymakerparty.s3.us-east-2.amazonaws.com/logomainwebp.webp"
               width="1037"
               height="172"
               alt="milady maker party"
