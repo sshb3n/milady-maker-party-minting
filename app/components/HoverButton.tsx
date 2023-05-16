@@ -14,7 +14,7 @@ export function ConnectButton({
       <img
         src={
           hover
-            ? "https://miladymakerparty.s3.us-east-2.amazonaws.com/connectclicked.webp"
+            ? "https://miladymakerparty.s3.us-east-2.amazonaws.com/connectselected.webp"
             : "https://miladymakerparty.s3.us-east-2.amazonaws.com/connect.webp"
         }
         width="611"
