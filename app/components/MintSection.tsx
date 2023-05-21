@@ -383,11 +383,6 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
         imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-selected.webp"
         handleClick={() => console.log("Button 1 clicked")}
       />
-      <MintButton
-        image="https://miladymakerparty.s3.us-east-2.amazonaws.com/referral-button-unselected.webp"
-        imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/referral-button-selected.webp"
-        handleClick={() => console.log("Button 2 clicked")}
-      />
     </div>
 
       <div className="w-48 mt-8 border-t border-gray-200 pt-12 text-center text-black">
