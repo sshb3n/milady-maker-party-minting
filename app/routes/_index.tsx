@@ -165,9 +165,6 @@ export default function Index() {
         <a href="https://etherscan.io/address/0x05C63282c87f620aF5a658cBb53548257F3A6186">
           <FaEthereum size={48} color="purple"/>
         </a>
-        <a href="https://stake.miladymakerparty.world/">
-          <FaCoins size={48} color="purple"/>
-        </a>
         <a href="https://opensea.io/" style={{ marginLeft: '16px', marginRight: '16px' }}>
           <FaWater size={48} color="purple"/>
         </a>
