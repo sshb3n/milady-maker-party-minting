@@ -377,7 +377,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       </div>
       <div className="text-lg mt-4 font-semibold text-black">.1ETH</div>
 
-      <div className="w-48 mt-8" style={{ display: "flex", justifyContent: "space-between"}}>
+      <div className="w-24 mt-8" style={{ display: "flex", justifyContent: "space-between"}}>
       <MintButton
         image="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-unselected.webp"
         imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-selected.webp"
@@ -385,7 +385,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       />
     </div>
 
-      <div className="w-48 mt-8 border-t border-gray-200 pt-12 text-center text-black">
+      <div className="w-24 mt-8 border-t border-gray-200 pt-12 text-center text-black">
         {merkleProof.status === "fetching"
           ? "Checking free mint eligibility..."
           : null}

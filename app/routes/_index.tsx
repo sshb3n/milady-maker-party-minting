@@ -140,11 +140,22 @@ export default function Index() {
 
       <div className="max-w-screen-2xl mx-auto h-screen flex flex-col items-center justify-center px-8 lg:px-0 relative">
         <div className="flex flex-col items-center justify-center">
+        <div className="absolute bottom-0 right-10">
+        <div className="mt-8 ml-8" style={{ color: 'purple', fontSize: '24px',position: 'fixed',
+        left: '8px',
+        bottom: '8px',}}>
+          <h1>Powered by Scatter.Art</h1>
+          
+      </div>
+    </div>
+
         <div className="absolute bottom-0 left-0">
-        <div className="mt-8 ml-8">
+        <div className="mt-8 ml-8" style={{position: 'fixed',
+        left: '8px',
+        bottom: '35px',}}>
           
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <div style={{ flexGrow: 1, overflowY: 'auto' }}>
+      <div style={{ flexGrow: 1, overflowY: 'auto',}}>
         {/* Content that can scroll */}
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
@@ -159,10 +170,8 @@ export default function Index() {
         </a>
       </div>
 
-      
     </div>
-
-          
+      
         </div>
       </div>
           <div className="max-w-3xl mx-auto">
