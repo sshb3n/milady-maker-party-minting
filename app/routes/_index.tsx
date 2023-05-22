@@ -9,7 +9,7 @@ import { MintSection } from "~/components/MintSection";
 import { Card } from "~/components/Card";
 import { Status } from "~/components/Status";
 import { Accounts } from "~/components/Accounts";
-import { FaHome, FaUser, FaEnvelope, FaEthereum, FaShip, FaWater, FaTwitter, FaBook } from 'react-icons/fa';
+import { FaHome, FaUser, FaEnvelope, FaEthereum, FaShip, FaWater, FaTwitter, FaBook, FaCoins } from 'react-icons/fa';
 
 
 
@@ -159,11 +159,14 @@ export default function Index() {
         {/* Content that can scroll */}
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
-      <a href="https://etherscan.io/address/0x05C63282c87f620aF5a658cBb53548257F3A6186">
+      <a href="https://docs.miladymakerparty.world/">
           <FaBook size={48} color="purple"/>
         </a>
         <a href="https://etherscan.io/address/0x05C63282c87f620aF5a658cBb53548257F3A6186">
           <FaEthereum size={48} color="purple"/>
+        </a>
+        <a href="https://stake.miladymakerparty.world/">
+          <FaCoins size={48} color="purple"/>
         </a>
         <a href="https://opensea.io/" style={{ marginLeft: '16px', marginRight: '16px' }}>
           <FaWater size={48} color="purple"/>
