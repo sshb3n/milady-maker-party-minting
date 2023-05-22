@@ -381,7 +381,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       <MintButton
         image="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-unselected.webp"
         imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/mint-button-selected.webp"
-        handleClick={() => console.log("Button 1 clicked")}
+        handleClick={mintPublic} // changed to mint public instead of console log
       />
     </div>
 
