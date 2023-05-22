@@ -11,12 +11,6 @@ import { Status } from "~/components/Status";
 import { Accounts } from "~/components/Accounts";
 import { FaHome, FaUser, FaEnvelope, FaEthereum, FaShip, FaWater, FaTwitter, FaBook, FaCoins } from 'react-icons/fa';
 
-
-
-const openSeaUrl = 'https://opensea.io/';
-
-
-
 const {
   useENSNames,
   useChainId,
