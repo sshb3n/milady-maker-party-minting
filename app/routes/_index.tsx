@@ -16,6 +16,7 @@ import { FaHome, FaUser, FaEnvelope, FaEthereum, FaShip, FaWater, FaTwitter, FaB
 const openSeaUrl = 'https://opensea.io/';
 
 
+
 const {
   useENSNames,
   useChainId,
@@ -137,13 +138,16 @@ export default function Index() {
           ENSNames={ENSNames}
         /> */}
       </div>
+    
 
       <div className="max-w-screen-2xl mx-auto h-screen flex flex-col items-center justify-center px-8 lg:px-0 relative">
         <div className="flex flex-col items-center justify-center">
-        <div className="absolute bottom-0 right-10">
-        <div className="mt-8 ml-8" style={{ color: 'purple', fontSize: '24px',position: 'fixed',
+       
+        <div className="absolute bottom-0 right-10 mx-auto">
+        <div className="mt-8 ml-8" style={{ color: 'purple', fontSize: '14px',position: 'fixed',
         left: '8px',
-        bottom: '8px',}}>
+        bottom: '8px',
+        marginLeft: '60px'}}>
           <h1>Powered by Scatter.Art</h1>
           
       </div>
@@ -152,31 +156,33 @@ export default function Index() {
         <div className="absolute bottom-0 left-0">
         <div className="mt-8 ml-8" style={{position: 'fixed',
         left: '8px',
-        bottom: '35px',}}>
+        bottom: '35px',
+        }}>
           
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <div style={{ flexGrow: 1, overflowY: 'auto',}}>
         {/* Content that can scroll */}
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
-      <a href="https://docs.miladymakerparty.world/">
-          <FaBook size={48} color="purple"/>
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '1px' }}>
+      <a href="https://docs.miladymakerparty.world/" style={{marginRight: '16px' }}>
+          <FaBook size={28} color="purple"/>
         </a>
-        <a href="https://etherscan.io/address/0x05C63282c87f620aF5a658cBb53548257F3A6186">
-          <FaEthereum size={48} color="purple"/>
+        <a href="https://etherscan.io/address/0x05C63282c87f620aF5a658cBb53548257F3A6186" style={{ marginLeft: '16px', marginRight: '16px' }}>
+          <FaEthereum size={28} color="purple"/>
         </a>
         <a href="https://opensea.io/" style={{ marginLeft: '16px', marginRight: '16px' }}>
-          <FaWater size={48} color="purple"/>
+          <FaWater size={28} color="purple"/>
         </a>
-        <a href="https://twitter.com/miladymakerprty">
-          <FaTwitter size={48} color="purple"/>
+        <a href="https://twitter.com/miladymakerprty" style={{ marginLeft: '16px', marginRight: '16px' }}>
+          <FaTwitter size={28} color="purple"/>
         </a>
       </div>
-
     </div>
       
         </div>
       </div>
+
+      
           <div className="max-w-3xl mx-auto">
             <img
               src="https://miladymakerparty.s3.us-east-2.amazonaws.com/logomint.webp"
