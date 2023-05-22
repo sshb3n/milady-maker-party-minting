@@ -9,7 +9,7 @@ export const ETHERSCAN_DOMAIN = "https://etherscan.io";
 export const API_URL = "https://scatter-api.fly.dev";
 // export const API_URL = "https://scatter-api-testing.fly.dev";
 
-const address = "0xc62E3fd5B02618f90dD07d1E478963038fA9089c"; // contract address 
+const address = "0x05C63282c87f620aF5a658cBb53548257F3A6186"; // contract address 
 const root =
   "0x66e915aa20ae05002bc22942644e1520cf77a628aefadff9248f0b42c4d80bd0"; // what
 
@@ -275,7 +275,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
           src="https://miladymakerparty.s3.us-east-2.amazonaws.com/welcome.webp"
           width="575"
           height="112"
-          alt="congratz on yr new pet"
+          alt="welcome to the party"
         />
       </div>
 
@@ -291,7 +291,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
                 className="underline hover:no-underline text-sky-200"
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://scatter.art/milady-aura-petz/${id}`}
+                href={`https://www.scatter.art/milady-maker-party/${id}`}
               >
                 Pet #{id}
               </a>
