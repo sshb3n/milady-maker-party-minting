@@ -11,7 +11,7 @@ export const API_URL = "https://scatter-api.fly.dev";
 
 const address = "0x05C63282c87f620aF5a658cBb53548257F3A6186"; // contract address 
 const root =
-  "0x66e915aa20ae05002bc22942644e1520cf77a628aefadff9248f0b42c4d80bd0"; // what
+  ""; // removed
 
 const abi = require("../lib/abi/ArchetypeV51.json");
 
