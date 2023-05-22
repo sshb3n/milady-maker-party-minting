@@ -375,7 +375,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
           </button>
         </div>
       </div>
-      <div className="text-lg mt-4 font-semibold text-black">.1ETH</div>
+      <div className="text-lg mt-4 font-semibold text-black">.05ETH</div>
 
       <div className="w-24 mt-8" style={{ display: "flex", justifyContent: "space-between"}}>
       <MintButton
