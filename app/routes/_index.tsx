@@ -10,6 +10,10 @@ import { Card } from "~/components/Card";
 import { Status } from "~/components/Status";
 import { Accounts } from "~/components/Accounts";
 
+
+const openSeaUrl = 'https://opensea.io/';
+
+
 const {
   useENSNames,
   useChainId,
@@ -131,6 +135,14 @@ export default function Index() {
           ENSNames={ENSNames}
         /> */}
       </div>
+
+
+      <div className="absolute bottom-0 left-0">
+        <div className="mt-8 ml-8">
+          
+        </div>
+      </div>
+
       <div className="max-w-screen-2xl mx-auto h-screen flex flex-col items-center justify-center px-8 lg:px-0 relative">
         <div className="flex flex-col items-center justify-center">
           <div className="max-w-3xl mx-auto">
