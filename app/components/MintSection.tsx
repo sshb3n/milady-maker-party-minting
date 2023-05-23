@@ -9,8 +9,8 @@ export const ETHERSCAN_DOMAIN = "https://etherscan.io";
 //export const API_URL = "https://scatter-api.fly.dev";
 export const API_URL = "https://scatter-api-testing.fly.dev";
 
-const address = "0x547C87f6a959589EdC711485aE73C56c520A7871"; // contract address 
-const root = "0xfa39287635eb409365e06159c0450886f38ddbc883183a9554efbafeb88f5553"; // replace with WL root
+const address = "0x05C63282c87f620aF5a658cBb53548257F3A6186"; // contract address 
+const root = ""; // replace with WL root
 
 const abi = require("../lib/abi/ArchetypeV51.json");
 
