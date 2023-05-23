@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 export const ETHERSCAN_DOMAIN = "https://etherscan.io";
-//export const API_URL = "https://scatter-api.fly.dev";
-export const API_URL = "https://scatter-api-testing.fly.dev";
+export const API_URL = "https://scatter-api.fly.dev";
+//export const API_URL = "https://scatter-api-testing.fly.dev";
 
 const address = "0x05C63282c87f620aF5a658cBb53548257F3A6186"; // contract address 
 const root = ""; // replace with WL root
