@@ -10,6 +10,8 @@ import { Card } from "~/components/Card";
 import { Status } from "~/components/Status";
 import { Accounts } from "~/components/Accounts";
 import { FaHome, FaUser, FaEnvelope, FaEthereum, FaShip, FaWater, FaTwitter, FaBook, FaCoins } from 'react-icons/fa';
+import { Helmet } from "react-helmet";
+
 
 const {
   useENSNames,
@@ -88,6 +90,33 @@ export default function Index() {
 
   return (
     <>
+    <Helmet>
+      <meta property="og:title" content="Milady Maker Party" />
+      <meta
+        property="og:description"
+        content="Milady Maker Party is the gamification of collective wealth creation and redistribution for the Remilia ecosystem."
+      />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="http://miladymakerparty.world" />
+      <meta
+        name="og:image"
+        content="https://miladymakerparty.s3.us-east-2.amazonaws.com/twittercard.jpg"
+      />
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@miladymakerprty" />
+      <meta name="twitter:creator" content="@miladymakerprty" />
+      <meta name="twitter:title" content="Milady Maker Party" />
+      <meta
+        name="twitter:description"
+        content="Milady Maker Party is the gamification of collective wealth creation and redistribution for the Remilia ecosystem."
+      />
+      <meta
+        name="twitter:image"
+        content="https://miladymakerparty.s3.us-east-2.amazonaws.com/twittercard.jpg?4362984378"
+      />
+    </Helmet>
+    
       {/* <div className="absolute bottom-0 left-0">Logos</div> */}
       <div className="absolute top-0 left-0">
         <div className="mt-8 ml-8">
