@@ -395,7 +395,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
         {merkleProof.theProof.length ? (
           <MintButton
             image="https://miladymakerparty.s3.us-east-2.amazonaws.com/free_mint_button.webp"
-            imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/free_mint_button-selected.webp"
+            imageHover="https://miladymakerparty.s3.us-east-2.amazonaws.com/free-mint-button-clicked.webp"
             handleClick={mintPrivate}
           />
         ) : merkleProof.status === "idle" ? (
