@@ -200,7 +200,7 @@ export default function Index() {
 
           <div className="w-72">
             <img
-              src="https://miladymakerparty.s3.us-east-2.amazonaws.com/mintgif.gif"
+              src="https://miladymakerparty.s3.us-east-2.amazonaws.com/scatterwebsite.gif"
               width="352"
               height="436"
               alt="milady maker party"

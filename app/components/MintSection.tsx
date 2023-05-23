@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 export const ETHERSCAN_DOMAIN = "https://etherscan.io";
-//export const API_URL = "https://scatter-api.fly.dev";
-export const API_URL = "https://scatter-api-testing.fly.dev";
+export const API_URL = "https://scatter-api.fly.dev";
+// export const API_URL = "https://scatter-api-testing.fly.dev";
 
-const address = "0x547C87f6a959589EdC711485aE73C56c520A7871"; // contract address 
-const root = "0xfbe29a11897c79110de84779fcb1bb1a6d8aa4fff7cb0733d1bf6496fc997a60"; // removed
+const address = "0x05C63282c87f620aF5a658cBb53548257F3A6186"; // contract address 
+const root = ""; // replace with WL root
 
 const abi = require("../lib/abi/ArchetypeV51.json");
 
