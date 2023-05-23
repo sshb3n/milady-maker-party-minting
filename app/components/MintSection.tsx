@@ -387,7 +387,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       />
     </div>
 
-      <div className="w-24 mt-8 border-t border-gray-200 pt-12 text-center text-black">
+      <div className="w-24 mt-8 border-t border-black-500 pt-12 text-center text-black">
         {merkleProof.status === "fetching"
           ? "Checking free mint eligibility..."
           : null}
