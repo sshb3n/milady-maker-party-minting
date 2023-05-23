@@ -284,7 +284,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       <div className="mt-8 mb-4 text-center">
         <p className="text-sm text-purple-500">
           Milady Maker Party
-          {(modalData.tokenIds?.length || 1) > 1 ? "z" : ""} minted:
+          {(modalData.tokenIds?.length || 1) > 1 ? "" : ""} minted:
         </p>
         <div className="mt-3 space-y-2">
           {modalData.tokenIds?.map((id) => (
