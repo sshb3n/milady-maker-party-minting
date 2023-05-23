@@ -279,20 +279,20 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       </div>
 
       <div className="mt-8 mb-4 text-center">
-        <p className="text-sm text-gray-500">
-          Pet
+        <p className="text-sm text-black-500">
+          Milady Maker Party
           {(modalData.tokenIds?.length || 1) > 1 ? "z" : ""} minted:
         </p>
         <div className="mt-3 space-y-2">
           {modalData.tokenIds?.map((id) => (
             <p key={id} className="">
               <a
-                className="underline hover:no-underline text-sky-200"
+                className="underline hover:no-underline text-black-200"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={`https://www.scatter.art/milady-maker-party/${id}`}
               >
-                Pet #{id}
+                Milady Maker Party #{id}
               </a>
             </p>
           ))}
