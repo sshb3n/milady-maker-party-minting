@@ -44,6 +44,14 @@ export default function App() {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#ffffff"></meta>
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@miladymakerprty" />
+        <meta name="twitter:creator" content="@miladymakerprty" />
+        <meta name="twitter:title" content="Milady Maker Party" />
+        <meta name="twitter:description" content="Milady Maker Party is the gamification of collective wealth creation and redistribution for the Remilia ecosystem." />
+        <meta name="twitter:image" content="https://miladymakerparty.s3.us-east-2.amazonaws.com/twittercard.jpg?4362984378" />
+
         <Meta />
         <Links />
       </head>
