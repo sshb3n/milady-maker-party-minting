@@ -43,8 +43,13 @@ export default function App() {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />
         <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="author" content="Milady Maker Party"></meta>
+        <title>Milady Maker Party</title>
+        <meta name="description" content="Milady Maker Party is the gamification of collective wealth creation and redistribution for the Remilia ecosystem."></meta>
+        <meta name="og:image" content="https://miladymakerparty.s3.us-east-2.amazonaws.com/twittercard.jpg"></meta>
         <meta name="theme-color" content="#ffffff"></meta>
 
+        
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@miladymakerprty" />
         <meta name="twitter:creator" content="@miladymakerprty" />
