@@ -179,7 +179,7 @@ export default function Index() {
       </div>
 
       
-          <div className="max-w-3xl mx-auto" style={{ paddingTop: '1px' }}>
+          <div className="max-w-3xl mx-auto" style={{ paddingTop: '60px' }}>
             <img
               src="https://miladymakerparty.s3.us-east-2.amazonaws.com/logomint.webp"
               width="1037"
