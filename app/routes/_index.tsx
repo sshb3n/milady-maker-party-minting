@@ -90,7 +90,8 @@ export default function Index() {
 
   return (
     <>
-    <div>
+      {/* <div className="absolute bottom-0 left-0">Logos</div> */}
+      <div>
     <Helmet>
       <meta property="og:title" content="Milady Maker Party" />
       <meta
@@ -119,7 +120,6 @@ export default function Index() {
     </Helmet>
     </div>
     
-      {/* <div className="absolute bottom-0 left-0">Logos</div> */}
       <div className="absolute top-0 left-0">
         <div className="mt-8 ml-8">
           <Status
