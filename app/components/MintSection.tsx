@@ -189,7 +189,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
     }
 
     const privateListRoot =
-      "0x72a52d4e30249606f6adf21a5bd3a0b10ff677719eb4c00c7765c554e569a7f2";
+      "0xfa39287635eb409365e06159c0450886f38ddbc883183a9554efbafeb88f5553";
 
     let invite = await nftContract.invites(privateListRoot);
 
