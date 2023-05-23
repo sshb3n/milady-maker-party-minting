@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 export const ETHERSCAN_DOMAIN = "https://etherscan.io";
-export const API_URL = "https://scatter-api.fly.dev";
-// export const API_URL = "https://scatter-api-testing.fly.dev";
+//export const API_URL = "https://scatter-api.fly.dev";
+export const API_URL = "https://scatter-api-testing.fly.dev";
 
-const address = "0x05C63282c87f620aF5a658cBb53548257F3A6186"; // contract address 
-const root = ""; // replace with WL root
+const address = "0x547C87f6a959589EdC711485aE73C56c520A7871"; // contract address 
+const root = "0xfa39287635eb409365e06159c0450886f38ddbc883183a9554efbafeb88f5553"; // replace with WL root
 
 const abi = require("../lib/abi/ArchetypeV51.json");
 
@@ -189,7 +189,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
     }
 
     const privateListRoot =
-      "0x66e915aa20ae05002bc22942644e1520cf77a628aefadff9248f0b42c4d80bd0";
+      "0x72a52d4e30249606f6adf21a5bd3a0b10ff677719eb4c00c7765c554e569a7f2";
 
     let invite = await nftContract.invites(privateListRoot);
 
@@ -253,6 +253,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
 
   const congratsUi = (
     <div className="flex flex-col text-white items-center relative">
+      {/*
       <div className="absolute -top-80 -left-80">
         <img
           src="https://miladymakerparty.s3.us-east-2.amazonaws.com/star.webp"
@@ -269,6 +270,8 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
           alt="!"
         />
       </div>
+      */}
+      
       <div>
         <img
           src="https://miladymakerparty.s3.us-east-2.amazonaws.com/welcome.webp"
@@ -279,7 +282,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
       </div>
 
       <div className="mt-8 mb-4 text-center">
-        <p className="text-sm text-black-500">
+        <p className="text-sm text-purple-500">
           Milady Maker Party
           {(modalData.tokenIds?.length || 1) > 1 ? "z" : ""} minted:
         </p>
@@ -287,7 +290,7 @@ export function MintSection({ provider }: { provider?: Web3Provider }) {
           {modalData.tokenIds?.map((id) => (
             <p key={id} className="">
               <a
-                className="underline hover:no-underline text-black-200"
+                className="underline hover:no-underline text-purple-500"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={`https://www.scatter.art/milady-maker-party/${id}`}

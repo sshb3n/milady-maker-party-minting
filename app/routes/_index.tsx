@@ -153,11 +153,11 @@ export default function Index() {
         bottom: '35px',
         }}>
           
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', zIndex: 1 }}>
       <div style={{ flexGrow: 1, overflowY: 'auto',}}>
         {/* Content that can scroll */}
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '1px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '1px', }}>
       <a href="https://docs.miladymakerparty.world/" style={{marginRight: '16px' }}>
           <FaBook size={28} color="purple"/>
         </a>
