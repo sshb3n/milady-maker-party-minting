@@ -92,6 +92,17 @@ export default function Index() {
     <>
     <div>
     <Helmet>
+      <meta property="og:title" content="Milady Maker Party" />
+      <meta
+        property="og:description"
+        content="Milady Maker Party is the gamification of collective wealth creation and redistribution for the Remilia ecosystem."
+      />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="http://miladymakerparty.world" />
+      <meta
+        name="og:image"
+        content="https://miladymakerparty.s3.us-east-2.amazonaws.com/twittercard.jpg"
+      />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@miladymakerprty" />
