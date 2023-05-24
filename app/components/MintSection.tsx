@@ -10,7 +10,7 @@ export const API_URL = "https://scatter-api.fly.dev";
 //export const API_URL = "https://scatter-api-testing.fly.dev";
 
 const address = "0x05C63282c87f620aF5a658cBb53548257F3A6186"; // contract address 
-const root = ""; // replace with WL root
+const root = "0x8417f5f88f7d97aa3cf29819a075814e7d90c6f888f01d4d9cba8354cb6cf305"; // replace with WL root
 
 const abi = require("../lib/abi/ArchetypeV51.json");
 
