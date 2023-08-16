@@ -1,3 +1,7 @@
+# Milady Maker Party Minting Dapp
+
+https://miladymakerparty.scatter.art/
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
